@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <link href="/src/style.css" rel="stylesheet" />
+    <title>Click & Collect - Galeries Lafayette</title>
+  </head>
+  <body class="flex min-h-screen flex-col items-center">
+    <header class="flex w-full flex-row items-center justify-between px-8 py-4">
+      <section class="flex items-center">
+        <a href="#">
+          <img
+            class="h-12"
+            src="./assets/Logo_galeries_lafayette-removebg-preview 1.png"
+            alt="Logo"
+          />
+        </a>
+        <nav class="ml-8">
+          <ul class="flex flex-row space-x-6">
+            <li class="font-title text-2xl"><a href="#">FAVORIS</a></li>
+            <li class="font-title text-2xl"><a href="#">HOMME</a></li>
+            <li class="font-title text-2xl"><a href="#">FEMME</a></li>
+          </ul>
+        </nav>
+      </section>
+      <aside class="flex items-center space-x-4">
+        <form
+          class="bg-primary border-sub flex items-center rounded border px-2 py-1"
+        >
+          <input
+            class="bg-primary font-roboto max-w-fit outline-none"
+            type="text"
+            placeholder="Marques, catégories, articles..."
+          />
+          <button type="submit">
+            <img class="ml-2 h-5" src="./assets/search.png" alt="Rechercher" />
+          </button>
+        </form>
+        <button aria-label="Profil">
+          <img class="h-6" src="./assets/profile.png" alt="Profil" />
+        </button>
+        <button aria-label="Panier">
+          <img class="h-6" src="./assets/cart.png" alt="Panier" />
+        </button>
+      </aside>
+    </header>
+    <main class="mx-auto mt-12 flex w-full max-w-2xl flex-col items-center">
+      <h1 class="font-title mb-8 flex text-7xl font-bold">CLICK & COLLECT</h1>
+      <button class="font-roboto mb-6 text-base underline">
+        UTILISER MON EMPLACEMENT ACTUEL
+      </button>
+      <section class="mb-8 flex w-full flex-col items-center">
+        <label class="font-roboto mb-2">Entrer votre code postal</label>
+        <form
+          class="border-sub relative flex w-full max-w-md flex-col rounded border"
+        >
+          <span class="text-sub font-roboto pt-2 pl-4"
+            >Entrer votre code postal</span
+          >
+          <a
+            href="index.html"
+            class="absolute top-4.5 right-2 flex h-8 w-8 items-center justify-center rounded-full bg-black"
+          >
+            <img
+              class="h-3"
+              src="./assets/cross-white-icon.webp"
+              alt="Rechercher"
+            />
+          </a>
+          <span class="font-title mt-2 ml-4 w-full bg-transparent text-black"
+            >LIMOGES, FRANCE</span
+          >
+        </form>
+      </section>
+    <span class="mb-8 w-full block border-t"></span>
+      <section class="w-full max-w-md">
+        <h2 class="font-title mb-4 text-3xl">
+          GALERIES LAFAYETTES PROCHE DE CHEZ VOUS :
+        </h2>
+        <a href="index-3.html" style="text-decoration: none; color: inherit;">
+          <article class="border-border mb-8 w-full max-w-2xl border p-6 transition-shadow cursor-pointer hover:shadow-lg">
+            <header class="mb-2 flex items-center">
+              <img
+            src="./assets/Logo_galeries_lafayette-removebg-preview 1.png"
+            alt="Logo"
+            class="mr-4 h-10"
+              />
+              <h3 class="font-title text-xl font-bold">
+            GALERIES LAFAYETTE LIMOGES
+              </h3>
+              <span class="text-sub ml-2 text-sm">12km</span>
+            </header>
+            <p class="font-roboto mb-4 text-black">
+              6 Rue Prte Tourny, 87000 Limoges
+            </p>
+            <ul class="flex flex-row gap-8">
+              <li class="flex items-center gap-2">
+            <span class="text-ele-3 text-2xl">
+              <img
+                src="./assets/gui-menu-check.svg"
+                alt="check"
+                class="inline h-6 w-6"
+              />
+            </span>
+            <span class="font-title mt-3">LIVRAISON</span>
+              </li>
+              <li class="flex items-center gap-2">
+            <span class="text-ele-3 text-2xl">
+              <img
+                src="./assets/gui-menu-check.svg"
+                alt="check"
+                class="inline h-6 w-6"
+              />
+            </span>
+            <span class="font-title mt-3">CLICK & COLLECT</span>
+              </li>
+            </ul>
+          </article>
+        </a>
+        <article class="border-border mb-8 w-full max-w-2xl border p-6">
+          <header class="mb-2 flex items-center">
+            <img
+              src="./assets/Logo_galeries_lafayette-removebg-preview 1.png"
+              alt="Logo"
+              class="mr-4 h-10"
+            />
+            <h3 class="font-title text-xl font-bold">
+              GALERIES LAFAYETTE BORDEAUX
+            </h3>
+            <span class="text-sub ml-2 text-sm">232km</span>
+          </header>
+          <p class="text-text font-roboto mb-4">
+            11-19 Rue Sainte-Catherine, 33000 Bordeaux
+          </p>
+          <ul class="flex flex-row gap-8">
+            <li class="flex items-center gap-2">
+              <span class="text-ele-3 text-2xl">
+                <img
+                  src="./assets/gui-menu-check.svg"
+                  alt="check"
+                  class="inline h-6 w-6"
+                />
+              </span>
+              <span class="font-title mt-3">LIVRAISON</span>
+            </li>
+            <li class="flex items-center gap-2">
+              <span class="text-ele-3 text-2xl">
+                <img
+                  src="./assets/gui-menu-check.svg"
+                  alt="check"
+                  class="inline h-6 w-6"
+                />
+              </span>
+              <span class="font-title mt-3">CLICK & COLLECT</span>
+            </li>
+          </ul>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <link href="/src/style.css" rel="stylesheet" />
+    <title>Click & Collect - Galeries Lafayette</title>
+  </head>
+  <body class="flex min-h-screen flex-col items-center">
+
+    <!-- Header & Navigation -->
+    <header class="flex w-full flex-row items-center justify-between px-8 py-4">
+      <section class="flex items-center">
+        <a href="#">
+          <img
+            class="h-12"
+            src="./assets/Logo_galeries_lafayette-removebg-preview 1.png"
+            alt="Logo"
+          />
+        </a>
+        <nav class="ml-8">
+          <ul class="flex flex-row space-x-6">
+            <li class="font-title text-2xl"><a href="#">FAVORIS</a></li>
+            <li class="font-title text-2xl"><a href="#">HOMME</a></li>
+            <li class="font-title text-2xl"><a href="#">FEMME</a></li>
+          </ul>
+        </nav>
+      </section>
+      <aside class="flex items-center space-x-4">
+        <form
+          class="bg-primary border-sub flex items-center rounded border px-2 py-1"
+        >
+          <input
+            class="bg-primary font-roboto max-w-fit outline-none"
+            type="text"
+            placeholder="Marques, catégories, articles..."
+          />
+          <button type="submit">
+            <img class="ml-2 h-5" src="./assets/search.png" alt="Rechercher" />
+          </button>
+        </form>
+        <button aria-label="Profil">
+          <img class="h-6" src="./assets/profile.png" alt="Profil" />
+        </button>
+        <button aria-label="Panier">
+          <img class="h-6" src="./assets/cart.png" alt="Panier" />
+        </button>
+      </aside>
+    </header>
+
+    <!-- Main Content -->
+
+    <main class="mx-auto mt-12 flex w-full max-w-2xl flex-col items-center">
+      <h1 class="flex font-title mb-8 text-7xl font-bold">CLICK & COLLECT</h1>
+      <button class="mb-6 text-base font-roboto underline">
+        UTILISER MON EMPLACEMENT ACTUEL
+      </button>
+      <section class="mb-8 flex w-full flex-col items-center">
+        <label class="mb-2 font-roboto">Entrer votre code postal</label>
+        <form class="flex flex-col border-sub relative w-full max-w-md rounded border">
+            <span class="text-sub pt-2 pl-4 font-roboto">Entrer votre code postal</span>
+            <a
+            href="index-2.html"
+            class="absolute top-4.5 right-2 flex h-8 w-8 items-center justify-center rounded-full bg-black"
+            >
+            <img class="h-5" src="./assets/search-white.png" alt="Rechercher" />
+            </a>
+          <span class="font-title mt-2 ml-4 w-full bg-transparent text-black">
+            LIMOGES, FRANCE
+          </span>
+        </form>
+      </section>
+      <hr class="mb-8 w-full" />
+      <section class="w-full max-w-md">
+        <h2 class="mb-4 text-base font-roboto font-bold">
+          GALERIES LAFAYETTES PROCHE DE CHEZ VOUS :
+        </h2>
+      </section>
+    </main>
+  </body>
+</html>

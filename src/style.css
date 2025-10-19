@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+
+@theme inline{
+  --color-primary: var(--bg);
+  --color-black: var(--text);
+  --color-sub: var(--subtext);
+  --color-ele: var(--element);
+  --color-ele-alt: var(--element-alt);
+  --color-ele-green: var(--element-3);
+  --color-border: var(--border);
+
+  --font-title: var(--title);
+  --font-roboto: var(--roboto);
+}
+
+@layer base {
+:root{
+  /* Primitive Tokens */
+--clr-white: oklch(100% 0 0);
+--clr-black: oklch(0% 0 0);
+--clr-grey: oklch(80.191% 0.00579 274.894);
+--clr-yellow: oklch(80.5% 0.19 83.5);
+--clr-grey-light: oklch(94.5% 0.002 120);
+--clr-blue: oklch(41.5% 0.13 259);
+--clr-green: oklch(44.288% 0.11507 136.646);
+
+--font-title: 'Bebas Neue', sans-serif;
+--font-roboto: 'Roboto', sans-serif;
+
+  /* Semantic Tokens */
+--bg: var(--clr-white);
+--text: var(--clr-black);
+--subtext: var(--clr-grey);
+--element: var(--clr-yellow);
+--element-alt: var(--clr-blue);
+--element-3: var(--clr-green);
+--border: var(--clr-grey-light);
+
+--title : var(--font-title);
+--roboto:var(--font-roboto);
+}
+
+
+}
