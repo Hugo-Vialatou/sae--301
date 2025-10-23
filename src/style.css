@@ -3,15 +3,6 @@
 
 @theme inline{
 
-/* Promo banner styles */
-.promo-yellow{ background: var(--clr-yellow); }
-.promo-yellow img{ width:100%; height:auto; display:block; }
-.promo-yellow .promo-text{ color: var(--clr-black); max-width:560px; }
-.promo-yellow .promo-text .font-title{ color: var(--clr-white); }
-.promo-yellow .promo-text p{ color: var(--clr-black); opacity:0.95; }
-.promo-yellow .promo-btn{ background: var(--clr-white); color: var(--clr-black); text-decoration:none; border-radius:9999px; padding:0.65rem 1.25rem; display:inline-block; font-weight:700; }
-.promo-yellow .promo-btn:hover{ background: var(--clr-grey-light); }
-
   --color-primary: var(--bg);
   --color-black: var(--text);
   --color-sub: var(--subtext);
