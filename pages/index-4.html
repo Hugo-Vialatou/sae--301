@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet" />
     <link href="/src/style.css" rel="stylesheet" />
-    <title>Chaussures Homme - Galeries Lafayette</title>
+    <title>Vêtements Homme - Galeries Lafayette</title>
   </head>
   <body class="flex min-h-screen flex-col items-center">
     <header class="flex w-full flex-row items-center justify-between px-8 py-4">
       <section class="flex items-center">
-        <a href="./index-3.html">
-          <img class="h-12" src="./assets/Logo_galeries_lafayette-removebg-preview 1.png" alt="Logo" />
+        <a href="/pages/index-3.html">
+          <img class="h-12" src="/public/Logo_galeries_lafayette-removebg-preview 1.png" alt="Logo" />
         </a>
         <nav class="ml-8">
           <ul class="flex flex-row space-x-6">
@@ -24,87 +24,99 @@
       <aside class="flex items-center space-x-4">
         <form class="bg-primary border-sub flex items-center rounded border px-2 py-1">
           <input class="bg-primary font-roboto max-w-fit outline-none" type="text" placeholder="Marques, catégories, articles..." />
-          <button type="submit"><img class="ml-2 h-5" src="./assets/search.png" alt="Rechercher" /></button>
+          <button type="submit">
+            <img class="ml-2 h-5" src="/public/search.png" alt="Rechercher" />
+          </button>
         </form>
-        <button aria-label="Profil"><img class="h-6" src="./assets/profile.png" alt="Profil" /></button>
-        <button aria-label="Panier"><img class="h-6" src="./assets/cart.png" alt="Panier" /></button>
+        <button aria-label="Profil">
+          <img class="h-6" src="/public/profile.png" alt="Profil" />
+        </button>
+        <button aria-label="Panier">
+          <img class="h-6" src="/public/cart.png" alt="Panier" />
+        </button>
       </aside>
     </header>
-
     <main class="mx-auto mt-12 flex w-full max-w-7xl flex-col items-center">
       <nav class="w-full mb-8 flex items-center">
-        <a href="./index-4.html" class="flex items-center text-black font-roboto text-lg hover:text-sub rounded px-2 transition-colors duration-150"><span class="text-2xl mr-2">&#8592;</span> Retour</a>
+        <a href="/pages/index-3.html" class="flex items-center text-black font-roboto text-lg hover:text-sub">
+          <span class="text-2xl mr-2">&#8592;</span> Retour
+        </a>
       </nav>
-
-      <h1 class="font-title text-6xl font-bold mb-12">ACCESSOIRES</h1>
-
+      <h1 class="font-title text-6xl font-bold mb-12">VÊTEMENTS HOMME</h1>
+      <section class="flex gap-6 mb-12">
+        <a href="/pages/index-6.html">
+        <button class="border border-border rounded-full px-6 py-2 font-roboto text-lg hover:text-sub hover:cursor-pointer">ACCESSOIRES</button>
+        </a>
+        <a href="/pages/index-5.html">
+        <button class="border border-border rounded-full px-6 py-2 font-roboto text-lg hover:text-sub hover:cursor-pointer">CHAUSSURES</button>
+        </a>
+      </section>
       <section class="w-full grid grid-cols-2 md:grid-cols-4 gap-8 mb-12">
         <figure class="flex flex-col items-center">
-          <img src="./assets/Casquette-jac.svg" alt="Shoe 1" class="w-80 h-80 object-contain bg-border rounded" />
-          <figcaption class="flex flex-col mt-25 text-left w-full pl-5">
-          <h2 class="font-title text-2xl mb-2">JACQUEMUS</h2>
-          <span class="text-sub font-roboto">Casquette</span>
-          <span class="font-title text-2xl font-bold">120,00 €</span>
+          <a href="/pages/index-produit.html">
+          <img src="/public/Ami-gris-pp.svg" alt="Ami Paris gris" class="w-80 h-80 object-contain bg-border rounded" />
+          </a>
+          <figcaption class="mt-4 text-left w-full pl-5 ">
+            <h2 class="font-title text-2xl mb-2 ">AMI PARIS</h2>
+            <p class="font-roboto text-sub mb-2">Pull Col Rond Ami De Coeur En Laine</p>
+            <span class="font-title text-2xl font-bold">385,00€</span>
           </figcaption>
         </figure>
         <figure class="flex flex-col items-center">
-          <img src="./assets/ceinture-off-white-en-polyester-noir-29854968-1_1.jpg-removebg-preview 1.svg" alt="ceinture" class="w-80 h-80 object-contain bg-border rounded" />
-          <figcaption class="flex flex-col mt-25 text-left w-full pl-5">
-          <h2 class="font-title text-2xl mb-2">OFF-WHITE</h2>
-          <span class="text-sub font-roboto">Ceinture souple</span>
-          <span class="font-title text-2xl font-bold">195,00 €</span>
+          <img src="/public/Ralph.svg" alt="Polo Ralph Lauren" class="w-80 h-80 object-contain bg-border rounded" />
+          <figcaption class="mt-4 text-left w-full pl-5">
+            <h2 class="font-title text-2xl mb-2">POLO RALPH LAUREN</h2>
+            <p class="font-roboto text-sub mb-2">Pull Torsadé en laine et cachemire</p>
+            <span class="font-title text-2xl font-bold">225,00 €</span>
           </figcaption>
         </figure>
         <figure class="flex flex-col items-center">
-          <img src="./assets/ami-casquette-black-1-removebg-preview 1.svg" alt="Casquette AMI" class="w-80 h-80 object-contain bg-border rounded" />
-          <figcaption class="flex flex-col mt-25 text-left w-full pl-5">
-          <h2 class="font-title text-2xl mb-2">AMI PARIS</h2>
-          <span class="text-sub font-roboto">Casquette Broderie</span>
-          <span class="font-title text-2xl font-bold">130,00 €</span>
+          <img src="/public/hoodie-car.svg" alt="Carhartt" class="w-80 h-80 object-contain bg-border rounded" />
+          <figcaption class="mt-4 text-left w-full pl-5">
+            <h2 class="font-title text-2xl mb-2 ">CARHARTT</h2>
+            <p class="font-roboto text-sub mb-2">sweat en coton</p>
+            <span class="font-title text-2xl font-bold">89,00 €</span>
           </figcaption>
         </figure>
         <figure class="flex flex-col items-center">
-          <img src="./assets/Casquette-Prada.png" alt="Casquette-Prada" class="w-80 h-80 object-contain bg-border rounded" />
-          <figcaption class="flex flex-col mt-25 text-left w-full pl-5">
-          <h2 class="font-title text-2xl mb-2">PRADA</h2>
-          <span class="text-sub font-roboto">Casquette de baseball</span>
-          <span class="font-title text-2xl font-bold">520,00 €</span>
+          <img src="/public/Sandro.svg" alt="Sandro" class="w-80 h-80 object-contain bg-border rounded" />
+          <figcaption class="mt-4 text-left w-full pl-5">
+            <h2 class="font-title text-2xl mb-2">SANDRO</h2>
+            <p class="font-roboto text-sub mb-2">Pull col rond</p>
+            <span class="font-title text-2xl font-bold">185,00 €</span>
           </figcaption>
         </figure>
       </section>
-
       <section class="w-full grid grid-cols-2 md:grid-cols-4 gap-8 mb-12">
-        <figure class="col-span-2 md:col-span-2 bg-ele-green rounded-lg p-8 flex flex-col justify-center items-start">
-          <img src="./assets/Roux.svg" alt="Officewear" class="w-full h-64 object-cover rounded mb-4" />
-          <h2 class="font-title text-primary text-2xl mb-2">COLOR BLOCK</h2>
-          <p class="font-roboto text-primary mb-4">La nature se pare de couleurs d'automne et notre vestiaire aussi !</p>
-          <a href="#" class="bg-primary text-black font-title rounded-full px-6 py-2">découvrir</a>
+        <figure class="col-span-2 md:col-span-2 bg-border rounded-lg p-8 flex flex-col justify-center items-start">
+          <img src="/public/image1.svg" alt="Officewear" class="w-full h-64 object-cover rounded mb-4" />
+          <h2 class="font-title text-2xl mb-2">OFFICEWEAR</h2>
+          <p class="font-roboto mb-4">Incontournable à chaque rentrée, la tendance office Wear est de retour !</p>
+          <a href="#" class="bg-black text-primary font-title rounded-full px-6 py-2">découvrir</a>
         </figure> 
         <figure class="flex flex-col items-center">
-          <img src="./assets/echarpe.svg" alt="Echarpe" class="w-80 h-80 object-contain bg-border rounded" />
+          <img src="/public/Jacquemus.svg" alt="Jacquemus" class="w-80 h-80 object-contain bg-border rounded" />
           <figcaption class="flex flex-col mt-25 text-left w-full pl-5">
           <h2 class="font-title text-2xl mb-2">JACQUEMUS</h2>
-          <span class="text-sub font-roboto">L'écharpe Jacquemus</span>
-          <span class="font-title text-2xl font-bold">150,00 €</span>
+          <span class="text-sub font-roboto">Sweatshirt à capuche</span>
+          <span class="font-title text-2xl font-bold">300,00 €</span>
           </figcaption>
         </figure>
         <figure class="flex flex-col items-center ">
-          <img src="./assets/Lunettes.svg" alt="Lunettes" class="w-80 h-80 object-contain bg-border rounded" />
+          <img src="/public/Zadig.svg" alt="Zadig & Voltaire" class="w-80 h-80 object-contain bg-border rounded" />
           <figcaption class="flex flex-col pl-5 mt-25 text-left w-full">
-          <h2 class="font-title text-2xl mb-2">TIFFANY & CO</h2>
-          <span class="font-roboto text-sub">Lunettes de soleil</span>
-          <span class="font-title text-2xl font-bold">349,00 €</span>
+          <h2 class="font-title text-2xl mb-2">ZADIG & VOLTAIRE</h2>
+          <span class="font-roboto text-sub">Sweatshirt à capuche</span>
+          <span class="font-title text-2xl font-bold">180,00 €</span>
           </figcaption>
         </figure>
       </section>
-
       <section class="w-full flex flex-col items-center mt-20 mb-8">
         <span class="font-title text-lg mb-4">6 sur 90000</span>
         <button class="bg-black text-primary font-title rounded-full px-4 py-2 text-lg">VOIR PLUS D'ARTICLES</button>
       </section>
-
     </main>
-    <footer class="w-screen bg-black text-primary py-12 mt-30">
+     <footer class="w-screen bg-black text-primary py-12 mt-30">
         <section class="max-w-6xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-8 mb-8">
           <article>
             <h3 class="font-title text-lg mb-2">Livraison offerte</h3>
@@ -175,18 +187,18 @@
           <ul class="flex flex-row gap-4">
            
             <li class="flex flex-col items-center">
-              <a class="bg-primary rounded-2xl " href="#"><img src="./assets/Facebook.png" alt="Facebook" class="h-6 w-6" /></a>
+              <a class="bg-primary rounded-2xl " href="#"><img src="/public/Facebook.png" alt="Facebook" class="h-6 w-6" /></a>
             </li>
             <li class="flex flex-col items-center">
-              <a class="bg-primary rounded-2xl" href="#"><img src="./assets/Instagram.png" alt="Instagram" class="h-6 w-6" /></a>
-            </li>
-
-            <li class="flex flex-col items-center">
-              <a class="bg-primary rounded-2xl" href="#"><img src="./assets/pinterest-p.svg" alt="Pinterest" class="h-6 w-6" /></a>
+              <a class="bg-primary rounded-2xl" href="#"><img src="/public/Instagram.png" alt="Instagram" class="h-6 w-6" /></a>
             </li>
 
             <li class="flex flex-col items-center">
-              <a class="bg-primary rounded-2xl" href="#"><img src="./assets/tiktok.svg" alt="TikTok" class="h-6 w-6" /></a>
+              <a class="bg-primary rounded-2xl" href="#"><img src="/public/pinterest-p.svg" alt="Pinterest" class="h-6 w-6" /></a>
+            </li>
+
+            <li class="flex flex-col items-center">
+              <a class="bg-primary rounded-2xl" href="#"><img src="/public/tiktok.svg" alt="TikTok" class="h-6 w-6" /></a>
             </li>
             
           </ul>
@@ -204,5 +216,6 @@
           <a href="#">Securité</a>
         </section>
       </footer>
-     </body>
+
+  </body>
 </html>
