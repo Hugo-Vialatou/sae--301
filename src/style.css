@@ -3,6 +3,7 @@
 
 @theme inline{
 
+  
   --color-primary: var(--bg);
   --color-black: var(--text);
   --color-sub: var(--subtext);
